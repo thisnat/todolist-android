@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">todolist</string>
+    <string name="dummy_desc">ไลฟ์ งี้วโรกาสตู้เซฟ ลาติน บ๊อบฟลุทแบรนด์ กฤษณ์โค้ก โบรชัวร์แพนดา ถ่ายทำพีเรียดเบอร์เกอร์</string>
+    <string name="dummy_desc_eng">Sed velit eros, interdum id massa id, scelerisque eleifend velit. Ut dictum nisl in tempus rutrum.</string>
+</resources>

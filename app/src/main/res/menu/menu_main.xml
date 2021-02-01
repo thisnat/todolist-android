@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:title="เพิ่มรายการ"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:onClick="onClickAdd"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/summary"
+        android:title="สรุป"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:onClick="onClickSummary"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sortByRating"
+        android:title="เรียงตามความสำคัญ"
+        android:onClick="onClickSortByRating"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortByNewest"
+        android:title="เรียงตามเวลา(ใหม่-เก่า)"
+        android:onClick="onClickSortByNewest"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortByOldest"
+        android:title="เรียงตามเวลา(เก่า-ใหม่)"
+        android:onClick="onClickSortByOldest"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/statClear"
+        android:title="ล้างสถิติ"
+        android:onClick="onClickStatClear"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="เกี่ยวกับ"
+        android:onClick="onClickAbout"
+        app:showAsAction="never" />
+
+</menu>
